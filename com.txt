@@ -1,0 +1,19 @@
+class deposite
+{
+ int principal,year;
+ int CI;
+ deposite(int pri,int y)
+ {
+  principal=pri;
+  year=y;
+ }
+ int compound(double rate)
+ {
+  CI=(int)(principal*Math.pow(1+rate/100),year);
+  return CI;
+ }
+}
+class com_int
+{
+ 
+ 
